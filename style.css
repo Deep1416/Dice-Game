@@ -39,6 +39,7 @@ h1 {
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
   color: #4ecca3;
+  text-align: center;
 }
 
 p {
@@ -56,4 +57,25 @@ footer {
   color: #eeeeee;
   text-align: center;
   font-family: "Indie Flower", cursive;
+}
+
+@media screen and (min-width:320px) and (max-width:500px) {
+    h1{
+        font-size: 2rem;
+    }
+    .container {
+        display: flex;
+      }
+    
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    h1{
+        font-size: 6rem;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+      }
+    
 }
